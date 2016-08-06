@@ -27,9 +27,13 @@ body{
   bottom: 0px;
   left: 0px;
   right: 0px;
-  padding: 50 50 50 0;
   height: 40px;
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: #6d6d6d;
   overflow: hidden;
+}
+
+#footer .container {
+  padding-top: 10px;
+  color: white;
 }
