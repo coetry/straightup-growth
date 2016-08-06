@@ -1,6 +1,17 @@
 
 <div id="footer">
   <div class="container">
-    supplying love and rocket-fuel marketing from houston.
+    supplying love and <span class="service"></span> from houston.
   </div>
 </div>
+
+<script>
+$(function(){
+      $(".service").typed({
+          strings: ["branding", "strategy", "marketing", "growth"],
+          typeSpeed: -2,
+          loop: true,
+          cursorChar: " ❤"
+      });
+  });
+</script>
