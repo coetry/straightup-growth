@@ -6,10 +6,30 @@ $navbar-height: 60px;
 
 @import 'bootstrap';
 
+html,
+body{
+  height: 100%;
+}
+
 #logo {
   height: $navbar-height;
 }
 
-#main-container {
-  padding-top: 40px;
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding-top: 100px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 50 50 50 0;
+  height: 40px;
+  width: 100%;
+  background-color: #f4f4f4;
+  overflow: hidden;
 }
