@@ -2,6 +2,6 @@ class PagesController < ApplicationController
   def home
   end
 
-  def squad
+  def who_we_are
   end
 end
