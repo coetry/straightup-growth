@@ -1,0 +1,8 @@
+.main-header {
+  font-family:'Press Start 2P', monospace;	    
+}
+
+.blurb {
+  font-family: 'Source Code Pro', monospace;
+}
+
