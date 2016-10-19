@@ -1,0 +1,32 @@
+
+
+<div class="container">
+  <h1 class="main-header">We're all about the Growth 📈</h2>
+
+  <br><br>
+
+  <div class="row">
+    <div class="one-half column"><%= image_tag "boxplot.png", :class => "blurb-img" %></div>
+    <div class="one-half column">
+      <p>
+	Numbers don't lie. We believe that data-driven solutions provide the best results and can't image business being done any other way in today's world.
+      </p>
+    </div>
+  </div>
+
+
+  <br><br><br><br>
+  
+  
+  <div class="row">
+    <div class="one-half column">
+      <p>
+	Photography is a major key. Your brand's image is directly related to i
+      </p>
+    </div>
+    <div class="one-half column"><center><%= image_tag "dslr.png", :class => "blurb-img" %></center></div>
+  </div>
+
+
+  
+</div> <!-- /.container -->
