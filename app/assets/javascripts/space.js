@@ -9,7 +9,7 @@ var numStars = 2000;
 $('document').ready(function() {
   
   // Calculate the screen size
-	screenH = $(window).height();
+	screenH = $(window).height() ;
 	screenW = $(window).width();
 	
 	// Get the canvas
@@ -24,7 +24,7 @@ $('document').ready(function() {
 	for(var i = 0; i < numStars; i++) {
 		var x = Math.round(Math.random() * screenW);
 		var y = Math.round(Math.random() * screenH);
-		var length = 1 + Math.random() * 2;
+		var length = 3 + Math.random() * 2;
 		var opacity = Math.random();
 		
 		// Create a new star and draw
