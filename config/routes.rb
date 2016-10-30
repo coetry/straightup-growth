@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :inquiries
+
   root "pages#home"
 
   get "squad" => "pages#squad"

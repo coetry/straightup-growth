@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'skeleton-rails', :git=> 'https://github.com/helios-technologies/skeleton-rails'
+gem 'bower-rails'
 
 
 group :development, :test do

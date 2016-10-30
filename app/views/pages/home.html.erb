@@ -1,7 +1,37 @@
 
 
-<div class="container">
-  <h3 class="main-header">We're all about the Growth 📈</h3>
 
 
-</div> <!-- /.container -->
+  <br><br>
+  <!-- <div class="row">
+    <div id="#left"class="one-half column">
+      <p class="process">listen to your story</p>
+      <p class="process">assess your needs</p>
+      <p class="process">chart a map for your growth</p>
+      <p class="process">straight up execute</p>
+      <p class="process">measure your growth</p>
+    </div>
+    <div id="#right"class="one-half column">
+      <p class="statement">there comes a time when it's incumbent to start something fresh,</p>
+      <p class="statement">an idea that sat there ... gathering dust.</p>
+      <p class="statement">we will never change the world if we sleep on our dreams.</p>
+      <p class="final-statement">allow us to manifest your vision.</p>
+    </div> -->
+    <%= form_for :inquiry, url: inquiries_path do |f| %>
+    <div class="row">
+      <div class="one-half column">
+        <p><%= f.label :first_name, "First Name" %>
+           <%= f.text_field :first_name %>
+        </p>
+        <p><%= f.label :last_name, "Last Name" %>
+           <%= f.text_field :last_name %>
+        </p>
+        <p><%= f.label :message, "What does growth mean to you?" %>
+           <%= f.text_area :message %>
+        </p>
+      </div>
+      <div class="one-half column">
+        <%= f.submit "😵", class: "submit-button" %>
+      </div>
+    </div>
+    <% end %>

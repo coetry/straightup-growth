@@ -1,25 +1,22 @@
 
 body {
 color: white;
+font-family: 'Roboto', sans-serif;
 }
 
 .nav-links {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-header {
-  font-family: monospace;
+  font-family: 'Satisfy', cursive;
   font-size: 2em;
-}
-
-.blurb {
-  font-family: 'Source Code Pro', monospace;
 }
 
 .blurb-img {
   max-width: 100%;
-}	     
- 
+}
+
 .straight-up {
    color: #fff;
    background-color: #000;
@@ -29,5 +26,23 @@ p {
   font-family: 'Source Code Pro', monospace;
   margin: auto;
 }
-	   
 
+.statement {
+
+}
+
+.process {
+  font-family:'Oswald', sans-serif;
+  color: black;
+  text-align: left;
+  width: 40%;
+  border: solid 1px black;
+}
+
+.submit-button {
+  font-size: 30px;
+}
+
+.success-gif {
+  animation: infinite;
+}

@@ -5,19 +5,24 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'typed' %>
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Satisfy" rel="stylesheet">
   <%= csrf_meta_tags %>
   <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
   <script src="https://raw.githubusercontent.com/subsumo/aframe-orbit-controls/master/dist/aframe-orbit-controls-component.min.js"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
+
+
   <%= render 'layouts/header' %>
 
 
-  <%= yield %>
-
+  <div class="container">
+    <h1 class="main-header">we're all about the <span style="background-color:black;color:white;">growth.</span></h1>
+    <%= yield %>
+  </div>
 
   <%= render 'layouts/footer' %>
 
